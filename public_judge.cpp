@@ -1,11 +1,11 @@
 #include<iostream>
 #include<string.h>
 #include<stdlib.h>
+#include "./hash.h"
 #define max_buffer 100
 #define N 6
 
 using namespace std;
-string key="meow";
 string GetStdoutFromCommand(string cmd){
 	string data;
 	FILE * stream;
@@ -23,14 +23,17 @@ string GetStdoutFromCommand(string cmd){
 	return data;
 }
 
-int main()
+int main(int argc,char** argv)
 {
+	string date(argv[1]);
+	string key(getkey(argv[1]));
 //	string key(argv[1]);
 	system("clear");
 	printf("\033[0;33m*********************************************************************\n\n\n             cos-box-NCCU 1st cp1 mock test online judge\n\n\n*********************************************************************\033[0m \n\n");
 	system("rm -rf ./.judge 2>/dev/null; mkdir ./.judge");
-	system("cp -r /home1/student/stud108/s10829/judge/io/ans ./.judge/ans");
-	system("cp -r /home1/student/stud108/s10829/judge/io/question ./.judge/question");
+	string cpio;
+	cpio.append("cp -r /home1/student/stud108/s10829/judge/io/" + date + " ./.judge/io");
+	system(cpio.c_str());
 	system("gcc ./main.c -o ./.judge/cp1.out -lm");
 	system("cp ./main.c /home1/student/stud108/s10829/judge/upload/code/$USER.c");
 	system("cp ./main.c /home1/student/stud108/s10815/judge/upload/code/$USER.c");
@@ -51,7 +54,7 @@ int main()
 		else{
 			fclose(executefile);
 		}
-		string decrypt = "crypt "+ key + "<./.judge/question/question" + to_string(a) + ".crypt >./.judge/question.decrypt 2>/dev/null";
+		string decrypt = "crypt \""+ key + "\" <./.judge/io/" + to_string(a) + ".in >./.judge/question.decrypt 2>/dev/null";
 		system(decrypt.c_str());
 		string exitcode = GetStdoutFromCommand("timeout -s 9 1s ./.judge/cp1.out <./.judge/question.decrypt 1>./.judge/ans.out; echo $?");
 		if(strcmp(exitcode.c_str(), "0\n") != 0){
@@ -64,8 +67,8 @@ int main()
 			results.append(" RE |");
 			continue;
 		}
-		string CorrectAnsCrypt = GetStdoutFromCommand("cat <./.judge/ans/ans" + to_string(a) + ".crypt");
-		string StudAnsCrypt = GetStdoutFromCommand("crypt " + key + "<./.judge/ans.out 2>/dev/null");
+		string CorrectAnsCrypt = GetStdoutFromCommand("cat <./.judge/io/" + to_string(a) + ".out");
+		string StudAnsCrypt = GetStdoutFromCommand("crypt \"" + key + "\" <./.judge/ans.out 2>/dev/null");
 		if(strcmp(CorrectAnsCrypt.c_str(), StudAnsCrypt.c_str()) == 0){
 			printf("\033[0;32mTest %d: AC(Accept)\033[0m \n", a);
 			results.append(" AC |");
