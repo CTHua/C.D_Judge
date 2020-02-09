@@ -4,3 +4,5 @@ created by CTHua & Dark9nive
 ```
 /home1/student/stud108/s10829/judge/submit "date"
 ```
+## Submission Website
+http://www.cs.nccu.edu.tw/~s10829/index.html
