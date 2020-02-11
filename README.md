@@ -1,17 +1,17 @@
-# C.D_Judge
+# C.D-Judge
 
 This is a simple judge system.  
 Only supports on NCCU-ghost(ghost.cs.nccu.edu.tw) currently.  
-Created by [CTHua](https://github.com/CTHua) & [Dark9ive](https://github.com/dark9ive).  
+Created by [__C__THua](https://github.com/CTHua) & [__D__ark9ive](https://github.com/dark9ive).  
 
 ## Get started
 
-__Important: This project is not designed for general user! __
+__Important: This project is not designed for general user!__
 
 Step 1. Clone the project to your own directory using the following command:
 
 ```
-git clone https://github.com/CTHua/C.D_Judge.git
+git clone https://github.com/CTHua/C.D-Judge.git
 ```
 
 Step 2. Compile necessary files:
