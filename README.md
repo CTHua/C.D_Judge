@@ -2,11 +2,9 @@
 
 This is a simple judge system.  
 Only supports on NCCU-ghost(ghost.cs.nccu.edu.tw) currently.  
-Created by [__C__THua](https://github.com/CTHua) & [__D__ark9ive](https://github.com/dark9ive).  
+Created by [CTHua](https://github.com/CTHua) & [Dark9ive](https://github.com/dark9ive).  
 
 ## Get started
-
-__Important: This project is not designed for general user!__
 
 Step 1. Clone the project to your own directory using the following command:
 
@@ -21,6 +19,10 @@ make
 ```
 
 ## Usage
+
+__WARNING: This project is NOT designed for general user and IS NOT EXPECTING ANY ONE EXCEPT DEVELOPERS TO EXECUTE!!__
+__Running these compiled executable files may CAUSE DAMAGE TO YOUR PERSONAL FILES!!__
+__SO MAKE SURE YOU KNOW WHAT YOU ARE DOING!!__
 
 ###
 
