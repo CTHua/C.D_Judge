@@ -1,5 +1,0 @@
-#!/bin/bash
-
-clear
-printf "\033[0;33m*********************************************************************\n\n\n             cos-box-NCCU 1st cp1 mock test online judge\n\n\n*********************************************************************\033[0m \n\n";
-printf "\033[1;35m                 Time's Up! Submission Failed. QuQ\n\033[0m\n"
