@@ -25,7 +25,7 @@ __Running these compiled executable files may CAUSE DAMAGE TO YOUR PERSONAL FILE
 __SO MAKE SURE YOU KNOW WHAT YOU ARE DOING!!__  
 __DO EVERYTHING AT YOUR OWN RISK!!__  
 
-###
+### Ganerate questions
 
 ```
 /home1/student/stud108/s10829/judge/submit "date"
