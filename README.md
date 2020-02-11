@@ -25,7 +25,13 @@ __Running these compiled executable files may CAUSE DAMAGE TO YOUR PERSONAL FILE
 __SO MAKE SURE YOU KNOW WHAT YOU ARE DOING!!__  
 __DO EVERYTHING AT YOUR OWN RISK!!__  
 
-### Ganerate questions
+### Ganerate question files
+
+You must encrypted your own question with following commands:  
+
+```
+1keyencrypt test_date(YYYYMMDD) nums_of_questions
+```
 
 ```
 /home1/student/stud108/s10829/judge/submit "date"
