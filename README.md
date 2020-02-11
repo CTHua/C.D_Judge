@@ -1,4 +1,4 @@
-# Hua_Judge version 2.1
+# C.D_Judge
 
 This is a simple judge system running on NCCU-ghost(ghost.cs.nccu.edu.tw).  
 created by [CTHua](https://github.com/CTHua) & [Dark9ive](https://github.com/dark9ive).  
