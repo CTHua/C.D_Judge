@@ -1,4 +1,4 @@
-# C.D-Judge
+# C.D_Judge
 
 This is a simple judge system.  
 Only supports on NCCU-ghost(ghost.cs.nccu.edu.tw) currently.  
@@ -9,7 +9,7 @@ Created by [CTHua](https://github.com/CTHua) & [Dark9ive](https://github.com/dar
 Step 1. Clone the project to your own directory using the following command:
 
 ```
-git clone https://github.com/CTHua/C.D-Judge.git
+git clone https://github.com/CTHua/C.D_Judge.git
 ```
 
 Step 2. Compile necessary files:
@@ -39,7 +39,7 @@ You must encrypted your own question with following commands:
 
 ## Intro
 
-This is a simple judge system. Currently supporting on NCCU-ghost(ghost.cs.nccu.edu.tw).  
+This is a simple judge system. Only Supports NCCU-ghost(ghost.cs.nccu.edu.tw) currently.  
 
 ## Submission status
 
