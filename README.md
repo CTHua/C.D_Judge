@@ -12,7 +12,13 @@ Step 1. Clone the project to your own directory using the following command:
 git clone https://github.com/CTHua/C.D_Judge.git
 ```
 
-Step 2. Compile necessary files:
+Step 2. Change directory into the cloned folder:
+
+```
+cd ./C.D_Judge
+```
+
+Step 3. Compile necessary files:
 
 ```
 make
@@ -33,6 +39,8 @@ You must encrypted your own question with following commands:
 1keyencrypt test_date(YYYYMMDD) nums_of_questions
 ```
 
+### Submit answers
+
 ```
 /home1/student/stud108/s10829/judge/submit "date"
 ```
@@ -40,6 +48,7 @@ You must encrypted your own question with following commands:
 ## Intro
 
 This is a simple judge system. Only Supports NCCU-ghost(ghost.cs.nccu.edu.tw) currently.  
+Planning on making this a webpage version since we still need more sql and html techniques.
 
 ## Submission status
 
