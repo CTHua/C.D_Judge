@@ -31,7 +31,7 @@ __Running these compiled executable files may CAUSE DAMAGE TO YOUR PERSONAL FILE
 __SO MAKE SURE YOU KNOW WHAT YOU ARE DOING!!__  
 __DO EVERYTHING AT YOUR OWN RISK!!__  
 
-### Ganerate question files
+### Ganerate encrypted question files
 
 You must encrypted your own question with following commands:  
 
@@ -48,7 +48,11 @@ You must encrypted your own question with following commands:
 ## Intro
 
 This is a simple judge system. Only Supports NCCU-ghost(ghost.cs.nccu.edu.tw) currently.  
-Planning on making this a webpage version since we still need more sql and html techniques.
+Planning on making this a website version since we still need more sql and html techniques.  
+
+### 1keyencrypt
+
+This is a C++ compiled executable using [crypt(1)](https://docs.oracle.com/cd/E19253-01/816-5165/crypt-1/index.html)
 
 ## Submission status
 
