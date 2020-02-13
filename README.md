@@ -52,7 +52,7 @@ Planning on making this a website version since we still need more sql and html 
 
 ### 1keyencrypt
 
-1keyencrypt is a C++ compiled executable using [crypt(1)](https://docs.oracle.com/cd/E19253-01/816-5165/crypt-1/index.html) and md5 package from openssl.  
+1keyencrypt is a C++ compiled executable using [crypt(1)](https://docs.oracle.com/cd/E19253-01/816-5165/crypt-1/index.html) and [md5 package from openssl](https://www.openssl.org/docs/man1.1.0/man3/MD5_Init.html).  
 
 
 ## Submission status
