@@ -3,3 +3,4 @@ all:
 	g++ ./crypt.cpp -o 1keycrypt -lcrypto -std=c++0x
 clean:
 	rm -f submit 1keycrypt
+
