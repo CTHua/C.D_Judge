@@ -4,6 +4,7 @@
 #include "./hash.h"
 #define max_buffer 100
 #define N 6  //num of question
+
 using namespace std;
 //get stdout from command 
 string GetStdoutFromCommand(string cmd)
