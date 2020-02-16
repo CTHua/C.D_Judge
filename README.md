@@ -33,12 +33,12 @@ __Running these compiled executable files may CAUSE DAMAGE TO YOUR PERSONAL FILE
 __SO MAKE SURE YOU KNOW WHAT YOU ARE DOING!!__  
 __DO EVERYTHING AT YOUR OWN RISK!!__  
 
-### Ganerate encrypted question files
+### Ganerate encrypted input/output files
 
-You must encrypted your own question with following commands:  
+You must encrypted your i/o file(s) with following commands:  
 
 ```
-1keycrypt test_date(YYYYMMDD) nums_of_questions
+1keycrypt test_date(YYYYMMDD) num_of_question(s)
 ```
 
 ### Submit answers
