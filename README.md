@@ -73,3 +73,8 @@ Although crypt(1) is considered not secure enough, we still use it as our encryp
 ## Submission status
 
 Please visit our [website](http://www.cs.nccu.edu.tw/~s10829/index.html) for current submission status.
+
+## Planned feature(s)
+
+ - Custom password for each encryption.
+ - Website version(account create, identity verify, db management, etc...)
