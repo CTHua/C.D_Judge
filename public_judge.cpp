@@ -134,9 +134,9 @@ int main(int argc,char** argv)//command : submit date ( argv[1]=date )
 	//end copy
 	system("rm -rf ./.judge"); //remove ./.judge
 
-	//print successful . score . submit time 
+	//print successful  . submit time 
 	printf("\n\033[0mSubmission successful!\n\n");
-	printf("\033[0;35m--------------------\n| Your score is %d! |\n--------------------\n\n\033[0;33mSubmit time: %s\n", min(max(0, 20*correct-10), 100), uploadtime.c_str());
+	printf("\033[0;35m\n\n\033[0;33mSubmit time: %s\n", uploadtime.c_str());
 	//end print
 	return 0;
 }
