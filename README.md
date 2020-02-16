@@ -27,6 +27,7 @@ make
 ## Usage
 
 ### WARNING:   
+
 __This project is NOT designed for general user and IS NOT EXPECTING ANY ONE EXCEPT DEVELOPERS TO EXECUTE!!__  
 __Running these compiled executable files may CAUSE DAMAGE TO YOUR PERSONAL FILES!!__  
 __SO MAKE SURE YOU KNOW WHAT YOU ARE DOING!!__  
@@ -42,7 +43,7 @@ You must encrypted your own question with following commands:
 
 ### Submit answers
 
-Please make sure that you are in the same directory with your "main.c".
+Please make sure that you are in the same directory with your "main.c", then type:
 
 ```
 /home1/student/stud108/s10829/judge/submit test_date(YYYYMMDD)
