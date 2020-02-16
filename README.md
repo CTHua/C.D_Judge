@@ -1,6 +1,6 @@
 # C.D_Judge
 
-This is a simple judge system.  
+This is a simple C language judge system.  
 Only supports on NCCU-ghost(ghost.cs.nccu.edu.tw) currently.  
 Created by [CTHua](https://github.com/CTHua) & [Dark9ive](https://github.com/dark9ive).  
 
@@ -42,8 +42,10 @@ You must encrypted your own question with following commands:
 
 ### Submit answers
 
+Please make sure that you are in the same directory with your "main.c".
+
 ```
-/home1/student/stud108/s10829/judge/submit "date"
+/home1/student/stud108/s10829/judge/submit test_date(YYYYMMDD)
 ```
 
 ## Intro
