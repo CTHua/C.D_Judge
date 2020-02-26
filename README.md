@@ -56,7 +56,7 @@ Planned on making this a website version since we still need more SQL and HTML t
 
 ### crypt.cpp
 
-___crypt.cpp___ is the C++ source file of 1keycrypt. Further introduce in [below](https://github.com/CTHua/C.D_Judge#1keycrypt).  
+___crypt.cpp___ is the C++ source file of 1keycrypt. See further introduce in [below](https://github.com/CTHua/C.D_Judge#1keycrypt).  
 
 ### 1keycrypt
 
