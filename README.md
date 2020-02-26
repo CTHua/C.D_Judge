@@ -52,7 +52,7 @@ Please make sure that you are in the same directory with your "main.c", then typ
 ## Intro
 
 This is a simple judge system. Only supports NCCU-ghost(ghost.cs.nccu.edu.tw) currently.  
-Planned on making this a website version since we still need more SQL and html techniques.  
+Planned on making this a website version since we still need more SQL and HTML techniques.  
 
 ### 1keycrypt
 
