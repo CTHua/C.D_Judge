@@ -86,8 +86,9 @@ __submit__ is the C++ compiled executable of public\_judge. See further introduc
 ### public\_judge.cpp
 
 __public\_judge.cpp__ is a C++ source code including [hash.h](https://github.com/CTHua/C.D_Judge#hashh).  
-using [crypt(1)](https://docs.oracle.com/cd/E19253-01/816-5165/crypt-1/index.html) and [MD5 package from OpenSSL](https://www.openssl.org/docs/man1.1.0/man3/MD5_Init.html).
-The
+  
+The judge will do these before grading your code:  
+1. Make a copy of your code into The 
 
 ## Submission status
 
