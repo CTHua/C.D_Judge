@@ -72,7 +72,7 @@ __1keycrypt__ is the C++ compiled executable of 1keycrypt. See further introduce
 
 ### crypt.cpp
 
-__crypt.cpp__ is a C++ source code including [hash.h](https://github.com/CTHua/C.D_Judge#hash.h).  
+__crypt.cpp__ is a C++ source code including [hash.h](https://github.com/CTHua/C.D_Judge#hashh).  
 The program uses the date to generate a special key, which is used on __encrypting test files.__  
 
 After the key is generated, the script will then encrypt the test data (input) and Answer (output) files using _crypt_ command.  
@@ -81,11 +81,11 @@ Although __crypt(1)__ is considered not secure enough, we still use it as our en
 
 ### submit
 
-__submit__ is the C++ compiled executable of public\_judge. See further introduce [below](https://github.com/CTHua/C.D_Judge#public_judge).
+__submit__ is the C++ compiled executable of public\_judge. See further introduce [below](https://github.com/CTHua/C.D_Judge#public_judgecpp).
 
 ### public\_judge.cpp
 
-__public\_judge.cpp__ is a C++ source code including [hash.h](https://github.com/CTHua/C.D_Judge#hash.h).  
+__public\_judge.cpp__ is a C++ source code including [hash.h](https://github.com/CTHua/C.D_Judge#hashh).  
 using [crypt(1)](https://docs.oracle.com/cd/E19253-01/816-5165/crypt-1/index.html) and [MD5 package from OpenSSL](https://www.openssl.org/docs/man1.1.0/man3/MD5_Init.html).
 The
 
