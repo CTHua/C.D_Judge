@@ -103,8 +103,9 @@ And then start the grading process:
 5. Check if the encrypted output file is the same as the encrypted answer, gives AC (Accept).
 6. Otherwise, gives WA (Wrong Answer).
 
-The total score is calculated in the following formula:
-<center><img id="formula" src="https://github.com/CTHua/C.D_Judge/blob/master/pics/formula.png"></center>
+The total score is calculated in the following formula:  
+
+<p align="center"><img id="formula" src="https://github.com/CTHua/C.D_Judge/blob/master/pics/formula.png"></p>
 
 
 ## Submission status
