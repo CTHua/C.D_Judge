@@ -106,7 +106,10 @@ And then start the grading process:
 The total score is calculated in the following formula:  
 
 <p align="center"><img id="formula" src="https://github.com/CTHua/C.D_Judge/blob/master/pics/formula.png"></p>
+  
+For N equals to the total number of AC(s).  
 
+Last but not least, clean the trash, show the results and send them to the admins.  
 
 ## Submission status
 
