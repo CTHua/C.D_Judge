@@ -104,6 +104,7 @@ And then start the grading process:
 6. Otherwise, gives WA (Wrong Answer).
 
 The total score is calculated in the following formula:
+<center><img id="formula" src="https://github.com/CTHua/C.D_Judge/blob/master/pics/formula.png"></center>
 
 
 ## Submission status
