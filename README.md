@@ -96,10 +96,15 @@ The judge will do these before grading your code:
 
 And then start the grading process:  
 
-1. If fails to read the compiled executable, gives CE(Compilation Error).
+1. If fails to read the compiled executable, gives CE (Compilation Error).
 2. Run the exectable. If runtime stays over 1 second, kill it with signal 9.
-3. If the exit code is 137 (kill signal 9), gives TLE(Time Limit Exceed).
-4. Other non-zero exit code, gives RE(Runtime Error).
+3. If the exit code is 137 (kill signal 9), gives TLE (Time Limit Exceed).
+4. Other non-zero exit code, gives RE (Runtime Error).
+5. Check if the encrypted output file is the same as the encrypted answer, gives AC (Accept).
+6. Otherwise, gives WA (Wrong Answer).
+
+The total score is calculated in the following formula:
+
 
 ## Submission status
 
