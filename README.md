@@ -88,8 +88,18 @@ __submit__ is the C++ compiled executable of public\_judge. See further introduc
 __public\_judge.cpp__ is a C++ source code including [hash.h](https://github.com/CTHua/C.D_Judge#hashh).  
   
 The judge will do these before grading your code:  
-1. Make a ".judge" folder under your home directory
-1. Make a copy of your code into The 
+
+1. Make a ".judge" folder under your current directory.
+2. Make a copy of your code into ./.judge and compile it.
+3. Make a copy of your code to admins' folder.
+4. record submit time
+
+And then start the grading process:  
+
+1. If fails to read the compiled executable, gives CE(Compilation Error).
+2. Run the exectable. If runtime stays over 1 second, kill it with signal 9.
+3. If the exit code is 137 (kill signal 9), gives TLE(Time Limit Exceed).
+4. Other non-zero exit code, gives RE(Runtime Error).
 
 ## Submission status
 
